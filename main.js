@@ -1,6 +1,3 @@
-/*
-    SMOOTH SCROLL FUNCTION
-*/
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
@@ -10,6 +7,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         });
     });
 });
+
 
 let clicked = 0
 function close_menu(){
