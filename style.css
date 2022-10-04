@@ -85,9 +85,6 @@ body {
 .social-links-home a {
     color: #232935;
 }
-.social-links-home a:hover {
-    color: #6FB72F;
-}
 
 @media (max-width: 370px) {
     .title {
