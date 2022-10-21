@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -30,7 +31,7 @@
         <nav class="navbar">
             <input type="checkbox" id="check">
             <label for="check" onclick="open_menu()" class="checkbtn">
-                <svg style="width:37px;height:37px" viewBox="0 0 24 24">
+                <svg data-aos="fade-left" style="width:37px;height:37px" viewBox="0 0 24 24">
                     <path fill="currentColor" d="M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z" />
                 </svg>
             </label>
@@ -47,7 +48,7 @@
         <!-- HOME PAGE -->
 
         <div id="home-id" class="title"> 
-            <div class="title-des" style="width: 93%;"> 
+            <div class="title-des" data-aos="fade-right" style="width: 93%;"> 
                 <h1>HI I AM <br>
                     AJIN VARUGHESE 
                 <p class="quotes">
@@ -56,7 +57,7 @@
                 <button><a href="#about-id">SCROLL DOWN</a></button>
                 </h1>
             </div>
-            <div class="social-links-home">
+            <div data-aos="fade-left" class="social-links-home">
                 <a href="https://www.instagram.com/ajin_varughese/">
                     <svg style="width:22px;height:22px" viewBox="0 0 24 24">
                     <path fill="currentColor" d="M7.8,2H16.2C19.4,2 22,4.6 22,7.8V16.2A5.8,5.8 0 0,1 16.2,22H7.8C4.6,22 2,19.4 2,16.2V7.8A5.8,5.8 0 0,1 7.8,2M7.6,4A3.6,3.6 0 0,0 4,7.6V16.4C4,18.39 5.61,20 7.6,20H16.4A3.6,3.6 0 0,0 20,16.4V7.6C20,5.61 18.39,4 16.4,4H7.6M17.25,5.5A1.25,1.25 0 0,1 18.5,6.75A1.25,1.25 0 0,1 17.25,8A1.25,1.25 0 0,1 16,6.75A1.25,1.25 0 0,1 17.25,5.5M12,7A5,5 0 0,1 17,12A5,5 0 0,1 12,17A5,5 0 0,1 7,12A5,5 0 0,1 12,7M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9Z" />
@@ -79,7 +80,7 @@
         <!-- ABOUT ME -->
         
         <div id="about-id" class="about">
-            <div class="container-about">
+            <div data-aos="fade-right"  class="container-about">
                 <h1>About Me</h1>
                 <hr>
                 <p> 
@@ -93,7 +94,7 @@
                 
                 </p>
             </div>
-            <div class="about-icon">
+            <div class="about-icon" data-aos="fade-up" >
                 <svg viewBox="0 0 24 24">
                     <path fill="currentColor" d="M21,2H3A2,2 0 0,0 1,4V20A2,2 0 0,0 3,22H21A2,2 0 0,0 23,20V4A2,2 0 0,0 21,2M11,17.5L9.5,19L5,14.5L9.5,10L11,11.5L8,14.5L11,17.5M14.5,19L13,17.5L16,14.5L13,11.5L14.5,10L19,14.5L14.5,19M21,7H3V4H21V7Z" />
                 </svg>
@@ -105,9 +106,9 @@
 
         <div id="skills" class="myskill">
             <div class="myskill-head">
-                <h1 class="myskill-heading">My Skills</h1>
-                <hr>
-                <div class="myskill-description">
+                <h1 class="myskill-heading" data-aos="fade-right">My Skills</h1>
+                <hr data-aos="fade-right">
+                <div data-aos="fade-up" class="myskill-description">
                     <div class="des1">
                         <div class="html">
                             <svg class="myskill-logo" style="width:72px;height:72px;" viewBox="0 0 24 24">
@@ -166,22 +167,22 @@
             <div class="follow-el">
                 <div class="follow-head">
                     <h1>FOLLOW ME ON</h1>
-                    <hr>
+                    <hr data-aos="fade-right">
                 </div>
                 <div class="follow-des">
-                    <div class="follow-email">
+                    <div class="follow-email" data-aos="fade-right">
                             <svg style="width:30px;height:30px" viewBox="0 0 24 24">
                                 <path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" />
                             </svg>
                             <p>ajinvarughese91@gmail.com</p>
                     </div>
-                    <div class="follow-phone">
+                    <div class="follow-phone" data-aos="fade-right">
                         <svg style="width:30px;height:30px" viewBox="0 0 24 24">
                             <path fill="currentColor" d="M6.62,10.79C8.06,13.62 10.38,15.94 13.21,17.38L15.41,15.18C15.69,14.9 16.08,14.82 16.43,14.93C17.55,15.3 18.75,15.5 20,15.5A1,1 0 0,1 21,16.5V20A1,1 0 0,1 20,21A17,17 0 0,1 3,4A1,1 0 0,1 4,3H7.5A1,1 0 0,1 8.5,4C8.5,5.25 8.7,6.45 9.07,7.57C9.18,7.92 9.1,8.31 8.82,8.59L6.62,10.79Z" />
                         </svg>
                         <p>+91 8089949054</p>
                     </div>
-                    <div class="follow-socialMedia">
+                    <div class="follow-socialMedia" data-aos="fade-up">
                         <a href="https://www.instagram.com/ajin_varughese/">
                             <svg style="width:45px;height:45px" viewBox="0 0 24 24">
                                 <path fill="currentColor" d="M7.8,2H16.2C19.4,2 22,4.6 22,7.8V16.2A5.8,5.8 0 0,1 16.2,22H7.8C4.6,22 2,19.4 2,16.2V7.8A5.8,5.8 0 0,1 7.8,2M7.6,4A3.6,3.6 0 0,0 4,7.6V16.4C4,18.39 5.61,20 7.6,20H16.4A3.6,3.6 0 0,0 20,16.4V7.6C20,5.61 18.39,4 16.4,4H7.6M17.25,5.5A1.25,1.25 0 0,1 18.5,6.75A1.25,1.25 0 0,1 17.25,8A1.25,1.25 0 0,1 16,6.75A1.25,1.25 0 0,1 17.25,5.5M12,7A5,5 0 0,1 17,12A5,5 0 0,1 12,17A5,5 0 0,1 7,12A5,5 0 0,1 12,7M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9Z" />
@@ -208,5 +209,9 @@
 
     </div>
     <script src="main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
