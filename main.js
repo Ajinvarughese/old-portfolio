@@ -8,7 +8,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-
 let clicked = 0
 function close_menu(){
     clicked = 1
