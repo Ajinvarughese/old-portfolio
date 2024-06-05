@@ -18,6 +18,12 @@ function close_menu(){
     document.getElementById("menu-bar").style.left = "110%";   
 }
 
+
+
+
+
+
+
 function open_menu() {
 
     if (clicked === 1) {
